@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Like" ALTER COLUMN "count" SET DEFAULT 0,
+ALTER COLUMN "count" DROP DEFAULT;
+DROP SEQUENCE "Like_count_seq";

@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Like" ALTER COLUMN "count" SET DEFAULT 0;
